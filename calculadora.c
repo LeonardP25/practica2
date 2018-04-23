@@ -33,6 +33,9 @@ int main(int argc, char **argv)
 				break;
 			case 2:
 				result = 0;
+				resultado = a - b; 
+
+				printf("\n La Resta de %i - %i es igual a %i",a,b,resultado);
 				break;
 			case 3:
 				result = 0;
